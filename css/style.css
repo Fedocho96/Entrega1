@@ -193,21 +193,43 @@
 
 .bg-footer{
     background-color: #121212;
+    font-family: Poppins;
 }
 
 .footer{
+    padding-top: 10px;
+    padding-bottom: 5px;
     color: #ffffff;
     display: flex;
     justify-content: space-between;
+
 }
 
-.footer-ul{
-    display: flex;
-    justify-content: space-evenly;
+.logo-footer{
+    font-weight: 200;
+    font-size: 20px !important;
+}
+
+.ul-footer{
+    align-items: center;
+    justify-content: center;
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 30px;
 }
 
 .footer-item{
     margin-left: 20px;
     margin-right: 20px;
+    font-weight: 600;
 }
 
+
+.under-footer{
+    display: flex;
+    justify-content: space-between;
+    color: #F2EDE4;
+    font-weight: 200;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
