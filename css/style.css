@@ -5,7 +5,7 @@
 
 .header{
     padding: 20px;
-    background-color: #FFF3E6;
+    background-color: #F2EDE4;
 }
 
 /* navbar*/
@@ -79,7 +79,9 @@
 
 .abouttext{
     text-align: center;
-    width: 500px;
+    max-width: 700px;
+    font-family: Poppins;
+    font-weight: 500;
 }
 
 .about-link{
@@ -90,8 +92,8 @@
 /* featured Cards*/
 
 .featured-cont{
-    background-color: #FFF3E6;
-    padding-top: 50px;
+    background-color: #F2EDE4;
+    padding-top: 10px;
 }
 
 .featured-text{
@@ -99,12 +101,37 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    gap: 10px;
     font-family: Poppins;
 }
 
-.card-container{
+.featured-container{
     padding-bottom: 20px;
+}
+
+.card-box{
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    font-family: Poppins;
+    border: none !important;
+}
+.card-body{
+    background-color: #F2EDE4;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-price{
+    text-decoration: none;
+    color: #121212;
+    font-weight: 700;
 }
 
 
