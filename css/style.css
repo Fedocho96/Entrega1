@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    padding: 20px;
+    background-color: #FFF3E6;
+}
+
+/* navbar*/
+
+.nav-list-cont{
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.nav-icons{
+    width: 20px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+/* about*/
+
+.aboutcont{
+    background-color: #F2EDE4;
+}
+
+.containerPadre{
+    background-image: url(../images/bg-image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 20px 100px;
+    display: flex;
+}
+
+.about-cont{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.abouth1{
+    color: #ffffff;
+    font-family: poppins;
+    font-weight: 300;
+}
+
+.aboutbtn{
+    border-radius: 40px;
+    background-color: #121212;
+    height: 40px;
+    width: 140px;
+    border: none;
+    cursor: pointer;
+}
+.btntext{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+
+.abouttextpadre{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;    
+}
+
+.abouttext{
+    text-align: center;
+    width: 500px;
+}
+
+.about-link{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* featured Cards*/
+
+.featured-cont{
+    background-color: #FFF3E6;
+    padding-top: 50px;
+}
+
+.featured-text{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: Poppins;
+}
+
+.card-container{
+    padding-bottom: 20px;
+}
+
+
+/* form*/
+.form-box{
+    background-color: #735646;
+}
+
+.form-container{
+    margin: 0 auto;
+    max-width: 750px;
+}
+
+.formbox{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-control{
+    margin: 10px;
+}
+
+.form-btn{
+    margin-bottom: 20px;
+}
+
+/* footer*/
+
+.bg-footer{
+    background-color: #121212;
+}
+
+.footer{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-item{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
