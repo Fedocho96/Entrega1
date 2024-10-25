@@ -233,3 +233,67 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+/* --------------- MEDIA QUERYS* ---------------------------------------------------*/
+
+
+@media(max-width: 991px) {
+        /* Media querys navbar*/
+
+        .nav-list-cont{
+            display: none;
+        }
+
+        /* Media querys about*/
+
+        .abouth1{
+            text-align: center;
+        }
+
+        .about-cont{
+            padding-top: 0px;
+            align-items: center;
+        }
+
+        /* media queys form*/
+        .formbox{
+            width: 500px;
+        }
+
+        /* media querys footer*/
+
+        .ul-footer{
+            display: none !important;
+        }
+}
+
+
+
+@media(max-width:530px) {
+
+        /* media querys about*/
+        .about-box{
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 0px;
+        }
+
+
+
+        /* media querys featured-cards*/
+
+        .featured-text p{
+            text-align: center;
+        }
+
+
+        /* media querys form*/
+
+        .form-h2{
+            text-align: center;
+        }
+
+        .formbox{
+            width: 300px;
+        }
+}
