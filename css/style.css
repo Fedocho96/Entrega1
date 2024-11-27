@@ -1,3 +1,15 @@
+:root{
+    --base-color: #F2EDE4;
+    --base-variant: #735646;
+    --text-color: #121212;
+}
+
+.darkmode{
+    --base-color: #121212;
+    --base-variant: #271c0f;
+    --text-color: #F2EDE4;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -5,7 +17,9 @@
 
 .header{
     padding: 20px;
-    background-color: #F2EDE4;
+    background-color: var(--base-color);
+    color: var(--text-color);
+
 }
 
 /* ---------------------navbar---------------------*/
@@ -13,6 +27,8 @@
 .nav-list-cont{
     font-family: Poppins;
     font-weight: 600;
+    display: flex;
+    color: var(--text-color);
 }
 
 .nav-icons{
@@ -28,7 +44,7 @@
 /*--------------------- about-------------------*/
 
 .aboutcont{
-    background-color: #F2EDE4;
+    background-color: var(--base-color);
 }
 
 .containerPadre{
@@ -47,7 +63,7 @@
 }
 
 .abouth1{
-    color: #ffffff;
+    color: #F2EDE4;
     font-family: poppins;
     font-weight: 300;
 }
@@ -74,7 +90,8 @@
     display: flex;
     flex-direction: column;
     align-items:center;
-    justify-content: center;    
+    justify-content: center;
+    color: var(--text-color);    
 }
 
 .abouttext{
@@ -93,7 +110,8 @@
 
 .carousel-cont{
 
-    background-color: #F2EDE4;
+    background-color: var(--base-color);
+    color: var(--text-color);
 }
 
 .slider{
@@ -161,7 +179,8 @@ img.displaySlide{
 /* ------------------featured Cards--------------------------*/
 
 .featured-cont{
-    background-color: #F2EDE4;
+    background-color: var(--base-color);
+    color: var(--text-color);
     padding-top: 10px;
 }
 
@@ -206,7 +225,7 @@ img.displaySlide{
 
 /* -------------------- form -----------------------*/
 .form-box{
-    background-color: #735646;
+    background-color: var(--base-variant);
     padding-bottom: 30px;
     padding-top: 20px;
     font-family: Poppins;
@@ -372,4 +391,32 @@ img.displaySlide{
         .formbox{
             width: 300px;
         }
+}
+
+
+/* -----------Dark mode-----------------*/
+
+#theme-switch{
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: var(--base-variant);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+#theme-switch svg:last-child{
+    display: none;
+}
+
+.darkmode #theme-switch svg:first-child{
+    display: none;
+}
+.darkmode #theme-switch svg:last-child{
+    display: block;
 }
