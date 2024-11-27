@@ -89,6 +89,75 @@
     font-weight: 600;
 }
 
+/* ------------------carousel slider--------------------------*/
+
+.carousel-cont{
+
+    background-color: #F2EDE4;
+}
+
+.slider{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.whyus-text{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins;
+}
+
+.slides{
+    align-items: center;
+    position: relative;
+}
+
+.slides h1{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    top: 40%;
+}
+
+.slider img{
+    width: 100%;
+    height: 400px;
+    display: none;
+}
+img.displaySlide{
+    display: block;
+    animation-name: fade;
+    animation-duration: 1.5s;;
+}
+
+.slider button{
+    font-size: 2rem;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.prev{
+    left: 0;
+}
+.next{
+    right: 0;
+}
+@keyframes fade {
+    from {opacity: .5}
+    to {opacity: 1}
+}
+
 /* ------------------featured Cards--------------------------*/
 
 .featured-cont{
@@ -253,6 +322,13 @@
         .about-cont{
             padding-top: 0px;
             align-items: center;
+        }
+
+        /* media querys slider*/
+
+   
+        .slider button {
+            position: absolute;
         }
 
         /* media queys form*/
